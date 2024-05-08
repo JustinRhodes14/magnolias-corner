@@ -6,8 +6,13 @@ import Col from 'react-bootstrap/Col';
 import Header from './components/Header';
 import Gallery from './components/home/Gallery';
 import Sidebar from './components/home/Sidebar';
+import About from './pages/About';
 
-// GOAL: Vogue fashion magazine displaying concepts, fashion shows, and general discussion around fashion
+// GOAL: Vogue fashion magazine displaying concepts, fashion shows, 
+// and general discussion around fashion
+
+// TODO: Parallax scrolling, page breaks should be some gothic looking thing,
+// Page anchors to snap to different sections
 
 function App() {
   return (
@@ -21,16 +26,19 @@ function App() {
         crossorigin="anonymous" 
       />
       <Row>
-      <Col sm={1}/>
-      <Col sm={5}>
+      <Col sm={3}/>
+      <Col sm={5} className='p-4'>
         <Gallery />
       </Col>
-      <Col sm={3}/>
+      <Col sm={1}/>
       <Col sm={3}>
         <Sidebar />
       </Col>
       </Row>
     </Container>
+    <br />
+    <br />
+    <About />
     </div>
   );
 }

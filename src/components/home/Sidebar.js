@@ -11,7 +11,7 @@ function Sidebar() {
       <ListGroup.Item>New YouTube Video</ListGroup.Item>
       <ListGroup.Item>Summer Styling!</ListGroup.Item>
       <ListGroup.Item>Can't believe I thought of this new dress idea</ListGroup.Item>
-      <ListGroup.Item>Thanks for celebrating 10000 followers with me 🥳</ListGroup.Item>
+      <ListGroup.Item>Thanks for celebrating 10000 followers with me <span role='img' aria-label='Celebration Emoji'>🥳</span></ListGroup.Item>
     </ListGroup>
   );
 }
