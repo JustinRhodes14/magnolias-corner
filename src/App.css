@@ -1,20 +1,33 @@
-.App {
-  text-align: center;
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.me-auto {
+  margin-inline-end: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.p-4 {
+  padding: 1rem;
 }
 
-.App-header {
-  min-height: 100vh;
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.Form-header {
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,18 +35,12 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.navbar {
+  justify-content: center;
+  background-color: #E1E3DC;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
 }
