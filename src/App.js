@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/esm/Image';
+import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import Container from 'react-bootstrap/esm/Container';
 
 import Header from './components/Header';
-import Gallery from './components/home/Gallery';
-import Sidebar from './components/home/Sidebar';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Blog from './pages/Blog';
 import magnoliaBanner from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/magnolia-banner.png';
+import GalleryEffects from './components/GalleryEffects';
+import banner_breakpoint from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/breakpoint-banner.png';
 
 // GOAL: Vogue fashion magazine displaying concepts, fashion shows, 
 // and general discussion around fashion
@@ -21,7 +19,7 @@ import magnoliaBanner from '/Users/rhodes/Projects/magnoliasCorner/magnolias-cor
 
 function App() {
   return (
-    <div>
+    <div className='parallax-container'>
       <head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,25 +33,17 @@ function App() {
       </head>
       <Image src={magnoliaBanner} fluid></Image>
       <Header />
-      <Container fluid>
-        <Row>
-        <Col sm={3}/>
-        <Col sm={5} className='p-4'>
-          <Gallery />
-        </Col>
-        <Col sm={1}/>
-        <Col sm={3}>
-          <Sidebar />
-        </Col>
-        </Row>
-      </Container>
-      <br />
-      <br />
+      <GalleryEffects />
       <About />
-      <br />
-      <br />
+      <Container fluid>
+          <ParallaxProvider>
+            <Parallax speed={-10} opacity={[0.75,1]}>
+                <Image src={banner_breakpoint} alt='Banner breakpoint' width={'100%'} height={'400px'}/>
+            </Parallax>
+          </ParallaxProvider>
+        </Container>
       <Contact />
-      <Blog />
+      {/* <Blog /> */}
     </div>
   );
 }

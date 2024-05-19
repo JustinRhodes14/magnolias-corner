@@ -38,9 +38,29 @@
 .navbar {
   justify-content: center;
   background-color: #E1E3DC;
-  min-height: 10vh;
+  min-height: 5vh;
   font-size: calc(10px + 2vmin);
   font-family: "GFS Didot", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.about-page {
+  min-height: 5vh;
+  font-size: calc(20px + 2vmin);
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-page-p {
+  min-height: 1vh;
+  font-size: calc(2px + 2vmin);
+  font-family: "GFS Didot", serif;
+  font-weight: 50;
+  font-style: normal;
+}
+
+.parallax-container {
+  background-color: #e4e9d9;
 }

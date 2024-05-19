@@ -8,10 +8,10 @@ function Contact() {
   return (
         <Form>
             <div className='Form-header'>
-                <h1>Commisions, Conversation, Questions?</h1>
-                <p>Commision requests? Inquiry for work? Questions about my process? Feel free to reach out below!</p>
-                <p>When reaching out, please be sure to include your name, and I'll get back to you as soon as possible!</p>
-                <p>Even if you don't necessarily have a question, I'm always open to chat <span role='img' aria-label='Smile Emoji'>🙂</span></p>
+                <h1 className='about-page'>Commisions, Conversation, Questions?</h1>
+                <p className='about-page-p'>Commision requests? Inquiry for work? Questions about my process? Feel free to reach out below!</p>
+                <p className='about-page-p'>When reaching out, please be sure to include your name, and I'll get back to you as soon as possible!</p>
+                <p className='about-page-p'>Even if you don't necessarily have a question, I'm always open to chat <span role='img' aria-label='Smile Emoji'>🙂</span></p>
             </div>
             <Row>
                 <Col sm={3}/>
