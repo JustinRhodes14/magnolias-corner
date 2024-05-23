@@ -10,6 +10,10 @@
   padding: 1rem;
 }
 
+html {
+  scroll-behavior: smooth;
+ }
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -27,7 +31,7 @@
 }
 
 .Form-header {
-  min-height: 50vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,4 +67,15 @@
 
 .parallax-container {
   background-color: #e4e9d9;
+}
+
+.scroll-block {
+  display: block; 
+  position: relative; 
+  top: -300px; 
+  visibility: hidden;
+}
+
+.contact-button {
+  width: 300px;
 }

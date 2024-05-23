@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import art1 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art1.jpeg';
+import art1 from './pictures/art1.jpeg';
 
 function Blog() {
   return (

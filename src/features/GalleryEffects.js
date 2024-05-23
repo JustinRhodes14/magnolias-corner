@@ -4,15 +4,15 @@ import '../App.css';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Image from 'react-bootstrap/Image';
-import art1 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art1.jpeg';
-import art2 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art2.jpeg';
-import art3 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art3.jpeg';
-import art4 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art4.jpeg';
-import art5 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art5.jpeg';
-import art6 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art6.png';
-import art7 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art7.png';
-import art8 from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/art8.png';
-import banner_breakpoint from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/breakpoint-banner.png';
+import art1 from '../pictures/art1.jpeg';
+import art2 from '../pictures/art2.jpeg';
+import art3 from '../pictures/art3.jpeg';
+import art4 from '../pictures/art4.jpeg';
+import art5 from '../pictures/art5.jpeg';
+import art6 from '../pictures/art6.png';
+import art7 from '../pictures/art7.png';
+import art8 from '../pictures/art8.png';
+import banner_breakpoint from '../pictures/breakpoint-banner.png';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 
 
@@ -20,6 +20,7 @@ function GalleryEffects() {
   return (
     <ParallaxProvider>
         <Container fluid className='parallax-container'>
+            <br /><br /><br /><br />
             <Row>
                 <Col sm={1}>
                     <Parallax speed={7} easing={'easeOutQuad'}>

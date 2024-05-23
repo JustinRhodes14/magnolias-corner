@@ -2,10 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Stack from 'react-bootstrap/Stack';
 import Image from 'react-bootstrap/Image';
-import magnolia_about from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/magnolia-about.png';
-// import { FaInstagram, FaPinterest, FaTiktok, FaYoutube } from "react-icons/fa";
+import magnolia_about from '../pictures/magnolia-about.png';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
 
@@ -14,6 +12,7 @@ function About() {
     <ParallaxProvider>
         <Parallax speed={10} opacity={[0.75,1]}>
             <Container className='p-5' fluid>
+                <div id="about" className="scroll-block" />
                 <Row>
                     <Col sm={1} className=''>
                         <Image src={magnolia_about}/>
@@ -22,7 +21,7 @@ function About() {
                     <Col sm={7}>
                         <br /><br /><br />
                         <h3 className='about-page'>Nice to meet you, my name is Charlotte Park</h3>
-                        <p className='about-page-p'>Welcome to my fashion corner! Usually go my pen name
+                        <p className='about-page-p'>Welcome to my fashion corner! I Usually go my pen name,
                             C. Magnolia, hence the name of this space. I've had a passion for fashion since middle school,
                             and I love to bring my ideas to life through my artwork, social media, and writing.
                             My goal is to build a community around my love for fashion, coming up with unique creations

@@ -4,18 +4,13 @@ import Image from 'react-bootstrap/esm/Image';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import Container from 'react-bootstrap/esm/Container';
 
-import Header from './components/Header';
+import Header from './features/Header';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import magnoliaBanner from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/magnolia-banner.png';
-import GalleryEffects from './components/GalleryEffects';
-import banner_breakpoint from '/Users/rhodes/Projects/magnoliasCorner/magnolias-corner/src/pictures/breakpoint-banner.png';
-
-// GOAL: Vogue fashion magazine displaying concepts, fashion shows, 
-// and general discussion around fashion
-
-// TODO: Parallax scrolling, page breaks should be some gothic looking thing,
-// Page anchors to snap to different sections
+import magnoliaBanner from './pictures/magnolia-banner.png';
+import GalleryEffects from './features/GalleryEffects';
+import banner_breakpoint from './pictures/breakpoint-banner.png';
+import Socials from './pages/Socials';
 
 function App() {
   return (
@@ -32,6 +27,7 @@ function App() {
         />
       </head>
       <Image src={magnoliaBanner} fluid></Image>
+      <div id="home" className="scroll-block" />
       <Header />
       <GalleryEffects />
       <About />
@@ -41,9 +37,18 @@ function App() {
                 <Image src={banner_breakpoint} alt='Banner breakpoint' width={'100%'} height={'400px'}/>
             </Parallax>
           </ParallaxProvider>
-        </Container>
-      <Contact />
-      {/* <Blog /> */}
+      </Container>
+      <Socials />
+      <br /><br /><br /><br />
+      <Container fluid>
+          <ParallaxProvider>
+            <Parallax speed={-10} opacity={[0.75,1]}>
+                <Image src={banner_breakpoint} alt='Banner breakpoint' width={'100%'} height={'400px'}/>
+            </Parallax>
+          </ParallaxProvider>
+      </Container>
+      <Contact id="contact"/>
+      <br /><br /><br /><br /><br /><br />
     </div>
   );
 }

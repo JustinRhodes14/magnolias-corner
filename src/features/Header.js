@@ -12,7 +12,6 @@ function Header() {
     <Navbar className='justify-content-center' sticky='top'>
           <Nav fill variant='underline' className='justify-content-center'>
             <Nav.Link className='px-5' href="#about">About</Nav.Link>
-            <Nav.Link className='px-5' href="#blog">Blog</Nav.Link>
             <Nav.Link className='px-5' href="#contact">Contact</Nav.Link>
             <Nav.Link className='px-5' href="#socials">Socials</Nav.Link>
           </Nav>
