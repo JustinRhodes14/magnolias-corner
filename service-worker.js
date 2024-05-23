@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/magnolias-corner/precache-manifest.5a726b139187f8473e1d424f7f410bca.js"
+  "/magnolias-corner/precache-manifest.f0cefb90b433b006ab56113730bf8f21.js"
 );
 
 self.addEventListener('message', (event) => {
