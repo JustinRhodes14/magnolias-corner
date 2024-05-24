@@ -31,22 +31,22 @@ function Socials() {
                     <Col>
                         <Carousel indicators={false} controls={false} data-bs-theme="dark" width={'350px'}>
                         <Carousel.Item interval={5000}> 
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/CqOSOuruzuo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/CqOSOuruzuo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={5000}>
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/CuVniYvRVm8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/CuVniYvRVm8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={5000}>
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/CuXw2ldR_Cv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/CuXw2ldR_Cv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={5000}>
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/CwiMajas9KB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/CwiMajas9KB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={5000}>
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/CinPrAwrsqJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/CinPrAwrsqJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={5000}>
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/CtjitGxrBYJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/CtjitGxrBYJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         </Carousel>
                     </Col>
@@ -75,22 +75,22 @@ function Socials() {
                     <Col>
                     <Carousel indicators={false} controls={false} data-bs-theme="dark" width={'350px'}>
                         <Carousel.Item interval={10000}> 
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/C2S2SntxBWF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/C2S2SntxBWF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={5000}> 
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/C69GhAzx9Hr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/C69GhAzx9Hr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={10000}> 
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/ChJErp0OPAz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/ChJErp0OPAz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={5000}> 
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/CuFWqpExON8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/CuFWqpExON8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={10000}> 
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/CaXwRnSp5JZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/CaXwRnSp5JZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                         <Carousel.Item interval={5000}> 
-                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} captioned url="https://www.instagram.com/p/C2cxTWOOgiO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
+                            <InstagramEmbed width={'350px'} placeholderSpinnerDisabled={true} url="https://www.instagram.com/p/C2cxTWOOgiO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" />
                         </Carousel.Item>
                     </Carousel>
                     </Col>
