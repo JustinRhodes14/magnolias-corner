@@ -76,6 +76,10 @@ html {
   visibility: hidden;
 }
 
-.contact-button {
-  width: 300px;
+.social-page {
+  min-height: 5vh;
+  font-size: calc(20px + 2vmin);
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  font-style: normal;
 }

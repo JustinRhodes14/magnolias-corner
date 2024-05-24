@@ -11,14 +11,13 @@ function About() {
   return (
     <ParallaxProvider>
         <Parallax speed={10} opacity={[0.75,1]}>
-            <Container className='p-5' fluid>
+            <Container fluid>
                 <div id="about" className="scroll-block" />
                 <Row>
-                    <Col sm={1} className=''>
-                        <Image src={magnolia_about}/>
+                    <Col>
+                        <Image src={magnolia_about} fluid/>
                     </Col>
-                    <Col sm={3} />
-                    <Col sm={7}>
+                    <Col>
                         <br /><br /><br />
                         <h3 className='about-page'>Nice to meet you, my name is Charlotte Park</h3>
                         <p className='about-page-p'>Welcome to my fashion corner! I Usually go my pen name,
@@ -33,9 +32,9 @@ function About() {
                             And if you like what you see, be sure to follow along and become part of the growing community!
                         </p>
                     </Col>
-                    <Col sm={1} />
                 </Row>
             </Container>
+            <br /><br /><br />
         </Parallax>
     </ParallaxProvider>
   );

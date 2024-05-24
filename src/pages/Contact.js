@@ -2,12 +2,14 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 
 function Contact() {
 
   return (
+    <Container fluid>
         <Form action="https://formspree.io/f/meqywqdn" method="POST">
+            <br /><br /><br />
             <div id="contact" className="scroll-block" />
             <div className='Form-header'>
                 <h1 className='about-page'>Commisions, Conversation, Questions?</h1>
@@ -17,24 +19,28 @@ function Contact() {
             </div>
             <Row>
                 <Col />
-                <Col xs={4}>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                <Col>
+                    <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control id="email" type="email" name="email" placeholder="name@example.com" />
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Message</Form.Label>
                         <Form.Control id="textarea" type="textarea" name="textarea" as="textarea" rows={5} />
                     </Form.Group>
                 </Col>
                 <Col />
             </Row>
+            <br /><br />
             <Form.Group as={Row}>
-                <Col sm={{ span: 10, offset: 5 }}>
-                    <Button className='contact-button' size='lg' variant="light" type="submit">Submit</Button>
+                <Col />
+                <Col>
+                    <Button size='lg' variant="light" type="submit">Submit</Button>
                 </Col>
+                <Col />
             </Form.Group>
         </Form>
+    </Container>
   );
 }
 

@@ -34,7 +34,7 @@ function App() {
       <Container fluid>
           <ParallaxProvider>
             <Parallax speed={-10} opacity={[0.75,1]}>
-                <Image src={banner_breakpoint} alt='Banner breakpoint' width={'100%'} height={'400px'}/>
+                <Image src={banner_breakpoint} alt='Banner breakpoint' width={'100%'} height={'300px'}/>
             </Parallax>
           </ParallaxProvider>
       </Container>
@@ -43,7 +43,7 @@ function App() {
       <Container fluid>
           <ParallaxProvider>
             <Parallax speed={-10} opacity={[0.75,1]}>
-                <Image src={banner_breakpoint} alt='Banner breakpoint' width={'100%'} height={'400px'}/>
+                <Image src={banner_breakpoint} alt='Banner breakpoint' width={'100%'} height={'300px'}/>
             </Parallax>
           </ParallaxProvider>
       </Container>
